@@ -1,1 +1,4 @@
-This is the link web app.
+##Description
+This is the website reminder web app.
+##Author
+Yu Liu
