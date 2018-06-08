@@ -28,7 +28,6 @@ export default class LogIn extends React.Component{
         <div className="boxed-view">
           <div className="boxed-view__box">
             <h1> Sign In </h1>
-            <p> This is SignIn </p>
             {this.state.error ? <p>{this.state.error}</p> : undefined}
             <form className="boxed-view__form" onSubmit={this.onSubmit.bind(this)} noValidate>
               <input type="email" ref="email" name="email" placeholder="email" />
@@ -36,7 +35,7 @@ export default class LogIn extends React.Component{
               <button className="button"> Log In </button>
             </form>
             <Link to="/signup">
-              Sign Up
+              Need an account?
             </Link>
           </div>
         </div>
